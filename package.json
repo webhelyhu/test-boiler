@@ -6,7 +6,7 @@
   "scripts": {
     "dev-server-devel": "webpack-dev-server --mode development",
     "dev-server": "webpack-dev-server --mode production",
-    "build": "webpack --watch",
+    "build": "webpack --watch --mode development",
     "serve": "live-server public",
     "test-build-the-old-way": "babel src/index.js -o public/scripts/bundle.js --presets env --watch"
   },
@@ -20,6 +20,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.7.7",
+    "@babel/plugin-proposal-object-rest-spread": "^7.7.7",
     "@babel/preset-env": "^7.7.7",
     "babel-loader": "^8.0.6",
     "webpack-cli": "^3.3.10"
