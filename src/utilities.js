@@ -12,4 +12,4 @@ export default adducting
 // export { add, secretWord, adducting as default }
 
 
-console.log ("utilities.js is done")
+console.log ("utilities.js is done  once again!  :)")

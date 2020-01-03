@@ -19,6 +19,11 @@ module.exports = {
             }
           }
         ]
-      }
+        },
+    devServer: {
+        contentBase: path.resolve(__dirname, 'public'),
+        publicPath: '/sripts/'
+    },
+    devtool: 'source-map'
 }
 
