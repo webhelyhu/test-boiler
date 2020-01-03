@@ -1,0 +1,24 @@
+{
+  "name": "test-boiler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "serve": "live-server public",
+    "test-build-the-old-way": "babel src/index.js -o public/scripts/bundle.js --presets env --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.1",
+    "webpack": "^4.41.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "babel-loader": "^8.0.6",
+    "webpack-cli": "^3.3.10"
+  }
+}
